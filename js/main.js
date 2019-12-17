@@ -57,7 +57,7 @@ $(function(){
 	var titleArray=new Array(); // 포트폴리오 타이틀 배열
 	titleArray[0]="PERIPERA<br>Site Renewal";
 	titleArray[1]="FILA<br>Site Renewal";
-	titleArray[2]="Hdac Tech Website";
+	titleArray[2]="CAN:D Website";
 	total=titleArray.length;
 
 	setTimeout(function(){ // 갤러리 초기 설정 타이머
@@ -95,7 +95,7 @@ $(function(){
 		});
 
 		// console.log("left moving!!");
-		$(".timer .gage").stop().animate({width:0}, 0).animate({width:"100%"}, 9000);
+		$(".timer .gage").stop().animate({width:0}, 0).animate({width:"100%"}, 100);
 		$(".pager .current").text("0"+(n+1));
 	}
 	function rightMoving(){ // 오른쪽 이동 함수
@@ -118,7 +118,7 @@ $(function(){
 		});
 
 		// console.log("right moving!!");
-		$(".timer .gage").stop().animate({width:0}, 0).animate({width:"100%"}, 9000);
+		$(".timer .gage").stop().animate({width:0}, 0).animate({width:"100%"}, 100);
 		$(".pager .current").text("0"+(n+1));
 	}
 
